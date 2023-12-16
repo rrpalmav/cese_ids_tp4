@@ -45,7 +45,8 @@ extern "C" {
 /**
  * @brief Función princial del proyecto
  *
- * @return int Codigo de error devuelto al sistema operativo
+ * @return int Codigo de terminacion devuelto por el programa al sistema operativo, 0 en caso de
+ * ejecucion exacta
  */
 int main(void);
 

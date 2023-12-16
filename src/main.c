@@ -27,7 +27,6 @@ SPDX-License-Identifier: MIT
 
 #include "main.h"
 
-
 /* === Macros definitions ====================================================================== */
 #define LED_ROJO_PORT 3
 #define LED_ROJO_BIT  4
