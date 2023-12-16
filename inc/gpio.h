@@ -67,7 +67,7 @@ void GpioSetDirection(gpio_t self, bool output);
  * @brief Funcion para establecer el estado un puerto digital
  * 
  * @param gpio_t Puntero de objeto obtenido al llamar a la funcion GpioCreate.
- * @param bool El valor del estado.
+ * @param bool El valor del estado del puerto especifico.
  * @return void
 */
 void GpioSetState(gpio_t self, bool state);
